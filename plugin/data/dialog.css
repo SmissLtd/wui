@@ -1,0 +1,20 @@
+input {
+    width: 98.5%;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+}
+
+.row > div {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    display: block;
+    height: 0;
+    content: "";
+    clear: both;
+}

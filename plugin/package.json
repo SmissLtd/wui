@@ -1,0 +1,31 @@
+{
+  "title": "Web-usage Inspector",
+  "name": "wui",
+  "version": "1.0.0",
+  "description": "Web-usage Inspector addon for Firefox 38+",
+  "main": "index.js",
+  "author": "Lysenko Dmitriy",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ],
+  "preferences": [{
+    "name": "ComputerName",
+    "title": "Computer name",
+    "description": "Computer name where WUI is installed",
+    "type": "string",
+    "value": ""
+  },
+  {
+    "name": "ServerURL",
+    "title": "Web-usage Inspector server URL",
+    "description": "Server URL where WUI should send statistic",
+    "type": "string",
+    "value": ""
+  }
+  ]
+}
